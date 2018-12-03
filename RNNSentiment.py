@@ -43,6 +43,12 @@ def main():
     print('---label---')
     print(y_train[6])
 
+    # sen1 = "This is test sentence"
+    # sen2id = sen1.get_word_index()
+    # id2wordsen1 = {i: word for word, i in sen2id.items()}
+    # print([id2word.get(i, ' ') for i in sen1])
+   
+
     #maximum review length and minimum review length
     print('Maximum review length: {}'.format(len(max((x_train + x_test), key=len))))
 
