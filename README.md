@@ -13,7 +13,7 @@ conda env create -f environment.yml
 ### Dataset 
 We will use Recurrent Neural Networks, and in particular [LSTMs](https://en.wikipedia.org/wiki/Long_short-term_memory), to perform sentiment analysis in [Keras](https://keras.io/). Conveniently, Keras has a built-in IMDb movie reviews data set that we can use.
 ```
-from keras.daasets import imdb
+from keras.datasets import imdb
 ```
 ## How to train the model
 To start training program use this command
